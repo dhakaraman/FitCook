@@ -9,6 +9,7 @@ def create_app():
     app.config['MYSQL_USER'] = 'admin'
     app.config['MYSQL_PASSWORD'] = 'fitcook123'
     app.config['MYSQL_DB'] = 'fitcook'
+    app.config['SECRET_KEY'] = 'pokemon pokemon'
 
     mysql = MySQL(app)
 
